@@ -141,6 +141,7 @@ namespace WindowsFormsApp1
         public void Encryption()
         {
             message = textBox1.Text;
+            encryptMessage.Clear();
             BigInteger unicodeNumberChar = new BigInteger(), unicodeTemp = new BigInteger();
             GenerateNumbers();
             for (int i = 0; i < message.Length; i++)
